@@ -1,0 +1,30 @@
+{
+  "eslint.workingDirectories": [
+    "."
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.format.enable": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.codeAction.disableRuleComment": {
+    "enable": true,
+    "location": "separateLine"
+  },
+  "eslint.lintTask.enable": true,
+  "eslint.lintTask.options": "--ext .ts,.tsx,.js,.jsx src",
+  "eslint.runtime": "node",
+  "eslint.execArgv": ["--max-old-space-size=4096"],
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.codeActionsOnSave.rules": [
+    "@typescript-eslint/no-unused-vars",
+    "@typescript-eslint/no-explicit-any",
+    "prefer-const",
+    "no-var"
+  ]
+}
