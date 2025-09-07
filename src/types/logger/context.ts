@@ -1,4 +1,8 @@
 export interface LogContext {
+    /** 模块名称 */
+    module?: string;
+    /** 操作 */
+    operation?: string;
     requestId?: string;
     queueName?: string;
     consumerId?: string;

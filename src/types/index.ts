@@ -30,7 +30,8 @@ export { Message, SendMessageOptions, DeadLetterMessage } from './message/type';
 export { MessageEvent, MessageEventType, EventHandler } from './event/type';
 
 // 日志系统
-export { Logger } from './logger';
+export * from './logger';
+
 
 // 共享类型
 export * from './shared';
